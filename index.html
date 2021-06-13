@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="Intranet, Badan Wakaf Alquran, bwa, wakafquran" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Intranet BWA</title>
+    <!-- icon  -->
+    <link rel="icon" href="assets/img/logointra.png" type="image/gif" sizes="16x16">
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="assets/css/fontawesome-free/css/all.min.css">
+    <!-- newdesign  -->
+    <link rel="stylesheet" href="assets/css/newdesign.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/themify-icons.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/elegant-icons.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/nice-select.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/slicknav.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+    <section id="cover" class="min-vh-100">
+        <div id="cover-caption">
+            <div class="container">
+                <div class="row text-dark">
+                    <!-- girl image  -->
+                    <div class="col-lg-3 col-md-2 col-xl-4 girldiv">
+                        <img src="assets/img/girl.svg" alt="" class="girlimage" width="360">
+                    </div>
+                    <!-- end girl image  -->
+                    <!-- form login  -->
+                    <div class="col-xl-4 col-lg-6 col-md-8 col-sm-12 mx-auto text-center form p-4 shadow">
+                        <h1 class="display-4 py-2 text-truncate">
+                            <img src="assets/img/fullintra.svg" alt="">
+                        </h1>
+                        <h3 class=" font-weight-bold mt-4 size25 Raleway">Assalamualaikum</h3 >
+                        <p class=" mt-2 size12 lineheight19 Raleway">Masukan email dan password </br>
+                        untuk mendapatkan akses</p >
+                        <div class="px-2 pt-4 ml-4 mr-4">
+                            <form method="post" class="justify-content-center">
+                                <div class="form-group">
+                                    <input type="email" name="email" class="form-control Raleway" placeholder="example@bwa.id">
+                                </div>
+                                <div class="form-group iconpassword mt-4">
+                                    <input type="password" name="pswd" class="form-control Raleway" id="password-field" placeholder="Password">
+                                    <span toggle="#password-field" class="fas fa-eye field-icon toggle-password"></span>
+                                </div>
+                                <p class="text-right Raleway size14" ><a href="assets/" class=""  style="color:#1C584E !important">Forgot your password ?</a> </p>
+                                <button type="submit" class="btn btn-primary btn-lg btn-block size16 shadow Raleway font-weight-bold" style="background: #1C584E;">Sign in</button>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- end form login  -->
+                    <!-- boy image  -->
+                    <div class="col-lg-3 col-md-2 col-xl-4 boydiv">
+                        <img src="assets/img/boy.svg" alt="" class="boyimage" width="340">
+                    </div>
+                    <!-- end boy image  -->
+                </div>
+
+                <!-- fotter  -->
+                <footer>
+                    <div class="text-center">
+                        <a class="small fot-bwa" href="https://bwa.id">Copyright &copy;2019 -
+                            <script>document.write(new Date().getFullYear())</script> | From IT to All Departement
+                        </a>
+                    </div>
+                </footer>
+                <!-- end footer  -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Js Plugins -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/jquery.zoom.min.js"></script>
+    <script src="assets/js/jquery.dd.min.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        $(".toggle-password").click(function() {
+            var input = $($(this).attr("toggle"));
+            if (input.attr("type") == "password") {
+                input.attr("type", "text");
+            } else {
+                input.attr("type", "password");
+            }
+        });
+    </script>
+</body>
+</html>
